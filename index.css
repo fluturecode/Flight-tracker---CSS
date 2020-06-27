@@ -1,0 +1,128 @@
+body {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+#flight-tabs{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+
+  .flight-tab{
+  display: flex;
+  flex-direction: row;
+  border: 1px darkgray solid;
+  background-color: gray;
+  align-items: center;
+  }
+
+  .flight-tab-text{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+  }
+
+#search-bar{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.search-flight {
+  display: flex;
+  border: solid 1px blue;
+  width: 20%;
+  align-items: center;
+}
+
+.from-to-text {
+
+
+}
+
+.dates {
+  display: flex;
+  border: solid 1px red;
+  width: 20%;
+  background-color: lightgray;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.dates-text {
+
+}
+
+.trip-length {
+  border: solid 1px green;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content:  flex-end;
+}
+
+.divider {
+  color: lightgrey;
+  background-color: white;
+}
+
+.search-button {
+  background-color: orange;
+  color: white;
+  width: 10%;
+  height: 40px;
+
+}
+
+.plus-sign {
+  width: 40px;
+  height: 40px;
+  background-color: lightgrey;
+  color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column{
+  width: 25%;
+}
+
+.right-column{
+  width: 75%;
+}
+
+.box{
+  border: 1px solid gray;
+}
+
+#extras{
+  font-size: 12px;
+  padding-left: 24px;
+  padding-bottom: 8px;
+}
+
+.nav-extras{
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  color: blue;
+  padding-left: 12px;
+}
+
+#date1{
+  border-right: 1px solid gray;
+  padding-right: 6px;
+  margin-right: 6px;
+}
